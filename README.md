@@ -1,5 +1,5 @@
 # Bias-Aware Credit Approval System (EU AI Act Compliance)
-Normally, an AI is like a sponge—it soaks up everything in the data you give it. If your historical data shows that banks mostly gave loans to men in the 90s, the AI thinks, _"Ah, being a man must be why they are good at paying back loans!"_ 🤦‍♂️ This is a __bias__.
+Normally, an AI is like a sponge—it soaks up everything in the data you give it. Most simple example that I can think of is when a lending institution uses historical data that shows institution mostly gave loans to men in the 90s, the AI thinks, _"Ah, being a man must be why they are good at paying back loans!"_ 🤦‍♂️ This is a __bias__.
 
 A "Bias-Aware" system is one where you, the developer, have added a __special filter__ to make sure the AI isn't using illegal shortcuts to make decisions.
 ## 1. The "What & Why"
