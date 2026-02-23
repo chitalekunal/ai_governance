@@ -44,7 +44,7 @@ Unlike some other regions that prioritize innovation first, Europe prioritizes h
 ## These are just one offs, AI can't do like that, can it ? Lets check
 AI being nothing more than an advanced pattern matching algorithm, its inference is based on probablity. If the data used to train the model is biased this biasness is passed down to the model training it to be bais towards certain category of people. here is my "Game Plan" to affirm it.
 #### Step 1: The "Lazy" Model
-First, I’m just going to train a standard model (Random Forest) and see what happens. Usually, these models "cheat" by picking up on biases in the data. If the model is approving way more men than women just because of historical data, we've failed.
+This is a type of model that develops its own shortcuts based on input data to avoid heavy computing sometimes resulting in incorrect result. Hence we will deliberately create such model as part of our experiemnt. First, I’m just going to train a standard model (Random Forest) and see what happens. Usually, these models "cheat" by picking up on biases in the data. If the model is approving way more men than women just because of historical data, we've failed.
 #### Step 2: Peeking Inside (Explainability)
 I'm using SHAP to see what the AI is actually thinking. Is it looking at "Credit History," or is it secretly obsessing over "Personal Status"? If it's the latter, we have a "Digital Redlining" problem.
 #### Step 3: The "Fix" (Mitigation)
